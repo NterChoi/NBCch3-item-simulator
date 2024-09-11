@@ -2,7 +2,7 @@
 
 ______
 | 기능        |URL| Method | Request.body  | Response.body                                                                                       |
-|-----------|------|--------|---------------|-----------------------------------------------------------------------------------------------------|
+|---------------|------|--------|---------------|-----------------------------------------------------------------------------------------------------|
 | 회원가입      |/api/signup| POST   | { <br>  "id" : "test",  <br>  "password" : "test", <br>  "passwordCheck" : "test",  <br>  "name" : "test"  <br>   } | { <br> "id" : "test", <br> "name" : "test"<br> }                                                    |
 | 로그인       |/api/signin| POST   | { <br> "id" : "test", <br> "password" : "test" <br> } | {<br> "message" : "로그인 성공" <br> }                                                                   |
 | 캐릭터 생성    |/api/characters| POST   | { <br> "name" : "test" <br>} | { <br> "message" : "새로운 캐릭터 'test'를 생성하였습니다!", <br> "data" : { <br> "character_id" : 1 <br> } <br> }|
